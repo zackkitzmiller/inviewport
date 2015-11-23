@@ -18,7 +18,7 @@
             // if the item doesn't exist, it's not in the viewport.
             if (base.$el.length < 1) return false;
             
-            // find the boundreis of the item in question.
+            // find the boundries of the item in question.
             var offset  = base.$el.offset();
             
             var top     = offset.top;
